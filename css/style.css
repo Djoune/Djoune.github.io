@@ -131,6 +131,40 @@ section{
   font-weight: 400;
 }
 
+@media screen and (max-width:991px){
+  .fellows_name{
+    width: 80%;
+    font-size: 1.5em;
+    bottom: 42%;
+  }
+
+  .reward{
+    width: 65%;
+  }
+}
+
+@media screen and (max-width:480px){
+  .reward{
+  padding-bottom: 0;
+  font-size: 0.5em;
+  text-align: center;
+  top: 15%;
+  width: 65%;
+  left: 16%;
+  }
+
+  .fellows_name{
+    width: 75%;
+    left: 10%;
+  }
+
+  .contenu:hover .fellows_name {
+  width: 75%;
+  font-size: 0.75em;
+}
+}
+
+
 
 /*ABOUT THE RING*/
 td, th{
